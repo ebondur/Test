@@ -42,7 +42,7 @@ int main() {
         cin >> guess; 
 
         if (guess.size() != 5) {
-            cout << "The wordle is only 5 letters... dumbass" << endl;
+            cout << "The wordle is only 5 letters..." << endl;
             continue;
         } else if (!(find(words.begin(), words.end(), guess) != words.end())) {
             cout << "Not a valid 5 letter word (could just be not in database)" << endl;
